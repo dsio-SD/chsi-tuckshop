@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  background-color: #ffffff;
+  color: #004225; /* Chrisland green */
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #004225;
+}
+
+button {
+  background-color: #f3c300; /* yellow */
+  color: #004225;
+  border: none;
+  padding: 8px 12px;
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #ffdd44;
+}
+
+input {
+  margin: 4px;
+  padding: 6px;
+  border: 1px solid #004225;
+  border-radius: 4px;
+}
+
+#snackList li {
+  margin-bottom: 8px;
+  list-style: none;
+  padding: 6px;
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+
+#snackList button {
+  margin-left: 10px;
+}
+
+#authSection, #accountSection, #snacksSection {
+  border: 2px solid #004225;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+}

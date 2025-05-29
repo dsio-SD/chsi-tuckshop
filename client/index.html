@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tuckshop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Chrisland Tuckshop</h1>
+
+  <div id="authSection">
+    <h2>Register</h2>
+    <input type="text" id="registerUsername" placeholder="Username" />
+    <input type="password" id="registerPassword" placeholder="Password" />
+    <button id="registerBtn">Register</button>
+
+    <h2>Login</h2>
+    <input type="text" id="loginUsername" placeholder="Username" />
+    <input type="password" id="loginPassword" placeholder="Password" />
+    <button id="loginBtn">Login</button>
+    <button id="logoutBtn">Logout</button>
+  </div>
+
+  <div id="accountSection" style="display: none;">
+    <h2>Account</h2>
+    <p id="userInfo"></p>
+    <input type="number" id="topupAmount" placeholder="Top up amount" />
+    <button id="topupBtn">Top up</button>
+  </div>
+
+  <div id="snacksSection" style="display: none;">
+    <h2>Snacks</h2>
+    <ul id="snackList"></ul>
+    <div id="adminSection" style="display: none;">
+      <h3>Add Snack</h3>
+      <input type="text" id="newSnackName" placeholder="Snack name" />
+      <input type="number" id="newSnackPrice" placeholder="Price" />
+      <button id="addSnackBtn">Add Snack</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
